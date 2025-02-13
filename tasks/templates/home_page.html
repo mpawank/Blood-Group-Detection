@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Blood Group Identification</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: url("https://i.pinimg.com/736x/f5/c4/8d/f5c48d627c64cec9a36eb204cf8dbd56.jpg")
+          no-repeat center center/cover;
+        color: white;
+      }
+      .container {
+        padding: 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+        margin-left: 10px;
+        margin-top: 5px;
+      }
+
+      h1 {
+        font-size: 3rem;
+        margin-bottom: 10px;
+        color: white;
+        text-shadow: 2px 2px 5px black;
+        margin-top: -5px;
+      }
+
+      h2 {
+        font-size: 2rem;
+        margin-bottom: 15px;
+        color: white;
+      }
+
+      h3 {
+        color: #ffd700;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 1.1rem;
+        line-height: 1.8;
+        color: white;
+        margin-bottom: 20px;
+        text-shadow: 1px 1px 3px black;
+      }
+
+      header {
+        background-color: rgba(255, 204, 203, 0.5);
+        padding: 10px 20px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between; /* Space between website name and nav links */
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+      }
+
+      .site-title {
+        font-size: 1.8rem;
+        font-weight: bold;
+        color: black;
+      }
+
+      nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        gap: 20px; /* Space between nav items */
+      }
+
+      nav ul li {
+        display: inline;
+      }
+
+      .btn {
+        text-decoration: none;
+        padding: 10px 20px;
+        font-size: 1.1em;
+        border-radius: 5px;
+        color: white;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+
+      .btn.login {
+        background-color: #007bff;
+      }
+
+      .btn.login:hover {
+        background-color: #0056b3;
+      }
+
+      .btn.signup {
+        background-color: #ff4500;
+      }
+
+      .btn.signup:hover {
+        background-color: #c23300;
+      }
+      .info-section {
+        margin-top: 50px;
+        background: rgba(0, 0, 0, 0.6);
+        padding: 20px;
+        width: 30%;
+        border-radius: 10px;
+      }
+
+      ul {
+        list-style-type: disc;
+        margin-left: 20px;
+      }
+
+      .info-section h3 {
+        margin-top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="site-title">Blood Group Identification</div>
+      <nav>
+        <ul class="button-group">
+          <li>
+            <button class="btn login" onclick="location.href='login/'">
+              Login
+            </button>
+          </li>
+          <li>
+            <button class="btn signup" onclick="location.href='signup/'">
+              Register
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="container">
+      <h1>Blood Group Identification</h1>
+      <h2>Introduction</h2>
+      <p>
+        This web app is used to find the blood group by uploading the blood cell
+        image, and it will help to get the output as which blood group it is.
+      </p>
+
+      <div class="info-section">
+        <h3>Blood Group Types</h3>
+        <ul>
+          <li>A</li>
+          <li>B</li>
+          <li>AB</li>
+          <li>O</li>
+          <li>ACCORDING FEW MORE LIKE POSITIVE AND NEGATIVE</li>
+        </ul>
+      </div>
+
+      <div class="info-section">
+        <h3>How to Use the Web App</h3>
+        <p>
+          1. Login with your registered credentials<br />
+          2. Upload blood cell images:
+        </p>
+        <ul>
+          <li>ABO blood cell image</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
